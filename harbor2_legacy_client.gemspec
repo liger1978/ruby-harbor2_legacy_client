@@ -21,14 +21,14 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Richard Grainger","Swagger-Codegen"]
   s.email       = [""]
-  s.homepage    = "https://github.com/liger1978/harbor2_legacy_client/"
+  s.homepage    = "https://github.com/liger1978/ruby-harbor2_legacy_client/"
   s.summary     = "Harbor 2 legacy API Ruby Gem"
   s.description = "These APIs provide services for manipulating Harbor projects."
   s.license     = "MIT"
   s.required_ruby_version = ">= 1.9"
 
   s.add_runtime_dependency 'typhoeus', '~> 1.0', '>= 1.0.1'
-  s.add_runtime_dependency 'json', '~> 2.1', '>= 0.1.0'
+  s.add_runtime_dependency 'json', '~> 2.1', '>= 0.2.0'
   s.add_runtime_dependency 'addressable', '~> 2.3', '>= 2.3.0'
 
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
