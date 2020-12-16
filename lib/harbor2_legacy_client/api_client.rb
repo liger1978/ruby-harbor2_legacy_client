@@ -316,7 +316,7 @@ module Harbor2LegacyClient
 
     # Sets user agent in HTTP header
     #
-    # @param [String] user_agent User agent (e.g. swagger-codegen/ruby/0.2.0)
+    # @param [String] user_agent User agent (e.g. swagger-codegen/ruby/0.2.1)
     def user_agent=(user_agent)
       @user_agent = user_agent
       @default_headers['User-Agent'] = @user_agent
